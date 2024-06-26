@@ -1,0 +1,17 @@
+
+[core]
+	editor = nvim
+  untrackedcache = true
+	fsmonitor = true
+[alias]
+	staash = stash --all
+[rerere]
+	enabled = true
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[push]
+  autoSetupRemote = true
+[fetch]
+	writeCommitGraph = true
